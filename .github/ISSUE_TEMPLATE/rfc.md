@@ -1,0 +1,105 @@
+---
+name: Request for comments
+about: Propose a community-facing change or feature for Prism
+labels: rfc, architecture, needs discussion
+---
+
+# Request for comments
+
+<!--
+Use this template to propose community-facing changes and features for Prism.
+For internal technical and organisational decisions, use the architecture
+decision record template instead.
+
+After creating this issue, draft your full proposal using the template at
+templates/rfc.md and submit a merge request.
+
+Process details: https://handbook.omnifi.coop/engineering/architecture/rfcs/
+-->
+
+## Overview
+
+### Title
+<!-- A clear, descriptive title for the proposal -->
+
+### Category
+<!-- Select the primary category -->
+- [ ] Public interfaces (contracts and boundaries)
+- [ ] Features (new functionality or capabilities)
+- [ ] Protocols (communication standards and formats)
+- [ ] Behaviour (how the system responds or operates)
+- [ ] Community process (governance and workflows)
+- [ ] Standards (public specifications and conventions)
+
+### Affected projects
+<!-- Which Prism projects does this proposal affect? -->
+- [ ] Coordination (orchestration protocol, experiment lifecycle, shared types)
+- [ ] Aggregation (federated averaging, gradient aggregation, secure aggregation)
+- [ ] Privacy (differential privacy, secure computation, data sovereignty)
+- [ ] Client runtime (local training, data loading, model checkpointing)
+- [ ] Framework integration (Flower, PyTorch, TensorFlow adapters)
+- [ ] Deployment (standalone server, containers, Kubernetes operators)
+- [ ] Ecosystem integrations (Shield, Arai, Rai Vision)
+- [ ] Other: <!-- specify -->
+
+---
+
+## Summary
+
+### Proposal
+<!-- One paragraph summary of what you are proposing -->
+
+### Motivation
+<!-- Why is this change needed? What problem does it solve? -->
+
+---
+
+## Impact
+
+### Who is affected?
+<!-- Who will be affected by this change and how? -->
+
+### Migration considerations
+<!-- Will existing setups need to change? -->
+
+---
+
+## Proposed design
+
+### Overview
+<!-- High-level description of the proposed solution -->
+
+### Alternatives considered
+<!-- Briefly list other approaches you considered -->
+
+---
+
+## Discussion
+
+### Open questions
+<!-- Questions that need community input -->
+- <!-- Question 1 -->
+- <!-- Question 2 -->
+
+### Discussion period
+**Proposed duration**: <!-- minimum 14 days -->
+
+---
+
+## Next steps
+
+- [ ] Draft full proposal in `rfcs/XXXX-title.md`
+- [ ] Submit merge request to begin discussion period
+- [ ] Engage with community feedback
+- [ ] Await decision after discussion closes
+
+---
+
+## Governance
+
+This proposal follows the
+[Omnifi Foundation governance model](https://handbook.omnifi.coop/engineering/architecture/governance/).
+Technical leads carry responsibility for facilitating decisions after the
+community discussion period closes. See the
+[handbook](https://handbook.omnifi.coop/engineering/architecture/rfcs/) for
+process details.
