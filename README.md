@@ -1,21 +1,21 @@
-# Rai Prism Architecture
+# Prism Architecture
 
 Welcome! This repository is where architectural decisions for
-[Rai Prism](https://gitlab.com/rai.onl/prism) are proposed, discussed, and
+[Prism](https://gitlab.com/rai.onl/prism) are proposed, discussed, and
 recorded.
 
-## What is Rai Prism?
+## What is Prism?
 
-Rai Prism is an open source federated learning platform built in Rust. It
-provides secure, scalable orchestration for distributed machine learning —
-coordinating model training across edge devices and data silos, aggregating
-updates without centralising sensitive data, and ensuring compliance with
-privacy regulations and sovereignty requirements.
+Prism is an open source federated learning platform built in Rust. It provides
+secure, scalable orchestration for distributed machine learning — coordinating
+model training across edge devices and data silos, aggregating updates without
+centralising sensitive data, and ensuring compliance with privacy regulations
+and sovereignty requirements.
 
 Data never leaves where it lives; only model improvements travel.
 
 Prism sits within the broader Rai ecosystem: Prism trains models via federated
-learning, [Rai Shield](https://gitlab.com/rai.onl/shield) serves trained models
+learning, [Shield](https://gitlab.com/rai.onl/shield) serves trained models
 through a secure AI gateway, and [Arai](https://gitlab.com/rai.onl/arai)
 orchestrates AI agents that consume those models. Agents on edge devices can
 also participate as Prism clients, feeding training signals back from
@@ -27,11 +27,11 @@ This repository tracks architectural decisions using two complementary
 approaches:
 
 - **Decisions** capture internal technical and organisational choices — how
-  Rai Prism is built, structured, and maintained.
+  Prism is built, structured, and maintained.
 
 - **Comments** handle community-facing proposals — changes to public interfaces,
   features, behaviour, and integration patterns that affect how people use
-  Rai Prism.
+  Prism.
 
 These terms map to well-established practices — decisions are also known as
 architecture decision records (ADRs), and comments are also known as requests
@@ -59,7 +59,7 @@ and what happens with urgent decisions, is documented in the
 
 ## Projects in scope
 
-Proposals in this repository may affect any part of the Rai Prism ecosystem:
+Proposals in this repository may affect any part of the Prism ecosystem:
 
 **Coordination**
 - Orchestration protocol and shared types
@@ -113,7 +113,7 @@ proposal so the right people can weigh in.
 
 ## Governance
 
-Rai Prism is governed by the [Omnifi Foundation](https://omnifi.foundation), a
+Prism is governed by the [Omnifi Foundation](https://omnifi.foundation), a
 community-driven organisation that stewards open source projects. The
 architecture decision process — how proposals are written, reviewed, and
 decided — is defined in the
